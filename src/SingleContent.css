@@ -1,0 +1,42 @@
+.media{
+     display: flex; 
+     flex-direction: column; 
+     width: 200px; 
+    padding: 5px 0;
+  
+    margin: 5px 0px;
+   background-color: rgb(249, 248, 252);
+    border-radius: 10px;
+    position: relative;
+}
+
+.media:hover{
+     background-color: rgb(248, 180, 180);
+    /* color: rgb(31, 31, 32); */
+}
+
+.poster{
+    border-radius: 10px;
+ 
+}
+.big .title{
+    width: 100%;
+    text-align: center !important;
+    font-size: 17px;
+ 
+}
+.sub{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3px;
+    padding: 0 2px;
+    padding-bottom: 3px;
+
+
+
+}
+@media (max-width :  550px){
+    .media{
+        width: 46%;
+    }
+}
